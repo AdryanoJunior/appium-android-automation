@@ -15,7 +15,7 @@ describe('My Login application', () => {
     it('should login with valid credentials', async () => {
       await MenuScreen.accessLoginScreen()
       await LoginScreen.loginWithValidUser(userData.userSuccess.username, userData.userSuccess.password)
-     
+      await LoginScreen.accessVideo()
    })
 
 
