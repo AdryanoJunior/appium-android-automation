@@ -9,6 +9,6 @@
     "appium-uiautomator2-driver": "^3.9.8"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.js"
+    "wdio": "npx wdio ./wdio.conf.js"
   }
 }
